@@ -1,14 +1,14 @@
 <template>
   <div>
-    This is the friend Zone
+    This is the InviteUser Vue 
   </div>
 </template>
 
 <script>
 export default {
-  name: 'friends',
+  name: 'invite-user',
   props: {
     msg: String
-  }
-}
+  },
+};
 </script>

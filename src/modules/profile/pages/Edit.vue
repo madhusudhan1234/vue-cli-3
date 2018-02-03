@@ -1,14 +1,14 @@
 <template>
   <div>
-    This is the InviteUser Vue 
+    This is Edit Page
   </div>
 </template>
 
 <script>
 export default {
-  name: 'invite-user',
+  name: 'edit',
   props: {
     msg: String
-  }
-}
+  },
+};
 </script>
