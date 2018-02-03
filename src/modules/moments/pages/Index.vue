@@ -4,10 +4,6 @@
 
 <script>
   export default {
-    name: "index.vue"
+    name: "index"
   }
 </script>
-
-<style scoped>
-
-</style>

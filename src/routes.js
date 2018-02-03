@@ -8,8 +8,7 @@ Vue.use(VueRouter);
 
 const baseRoutes = [
   {
-    path: '/moment',
-    name: 'moment:index',
+    path: '/',
     component: Index,
   },
 ];
