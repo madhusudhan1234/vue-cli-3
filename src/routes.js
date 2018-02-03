@@ -1,6 +1,6 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
-import Index from './modules/moments/pages/Index.vue';
+import Moment from './modules/moments/MomentApp.vue';
 import momentRouter from './modules/moments/routes';
 import profileRouter from './modules/profile/routes';
 
@@ -9,7 +9,8 @@ Vue.use(VueRouter);
 const baseRoutes = [
   {
     path: '/',
-    component: Index,
+    component: Moment,
+    redirect: { name: 'moment:index' },
   },
 ];
 
